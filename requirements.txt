@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 asgiref==3.4.1
 dj-database-url==0.5.0
 Django==3.2.9
@@ -15,3 +16,6 @@ pytz==2021.3
 sqlparse==0.4.2
 typing-extensions==3.10.0.2
 whitenoise==5.3.0
+=======
+
+>>>>>>> ea13389f1a337481cb907595b8b496c657688d4e

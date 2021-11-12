@@ -21,7 +21,7 @@ urlpatterns = [
     path('domain/', views.DomainRegister.as_view()),
     path('checkAvailability/', views.checkAvailability.as_view()),
     path('themes', views.ThemesAPI .as_view(),name="themes"),
-    path('<str:domain>', views.SubdomainApi.as_view()),
+    path('subdomain/<str:domain>', views.SubdomainApi.as_view(),name="subdomain"),
    
    
 
